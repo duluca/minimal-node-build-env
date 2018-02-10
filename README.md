@@ -12,3 +12,13 @@ https://docs.docker.com/develop/develop-images/multistage-build/
 FROM minimal-node-build-env
 ...
 ```
+
+## To update git tag
+
+> Only use when updating Alpine contents, but specific version of the base package remains the same
+
+```
+git push origin :refs/tags/<tagname>
+git tag -fa <tagname>
+git push origin master --tags
+```

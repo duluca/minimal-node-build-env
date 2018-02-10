@@ -13,6 +13,12 @@ FROM minimal-node-build-env
 ...
 ```
 
+## To build
+
+```
+docker image build .
+```
+
 ## To update git tag
 
 > Only use when updating Alpine contents, but specific version of the base package remains the same

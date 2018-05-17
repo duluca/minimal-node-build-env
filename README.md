@@ -2,7 +2,7 @@
 
 > Alpine-based Node build environment with npm, bash and git
 
-> Based on `node:8.9.4-alpine`
+> Based on `node:8.11.1-alpine`
 
 ## Use
 

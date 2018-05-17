@@ -2,7 +2,7 @@
 
 > Alpine-based Node build environment with npm, bash and git
 
-> Based on `node:8.11.1-alpine`
+> Based on `node:8.11.2-alpine`
 
 ## Use
 
@@ -18,10 +18,20 @@ FROM minimal-node-build-env
 ## To build
 
 ```
+npm run build
+```
+
+or
+
+
+```
 docker image build .
 ```
 
 ## To update git tag
+
+Any time there's a new version execute `npm run push-tag`
+
 
 > Only use when updating Alpine contents, but specific version of the base package remains the same
 

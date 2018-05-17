@@ -13,6 +13,8 @@ FROM minimal-node-build-env
 ...
 ```
 
+> Hint: Use `npm ci` to install npm packages to speed up your installs.
+
 ## To build
 
 ```

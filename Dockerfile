@@ -10,3 +10,5 @@ RUN apk add --no-cache \
   curl \
   coreutils \
   grep
+
+RUN npm i -g npm

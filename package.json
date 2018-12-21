@@ -1,6 +1,6 @@
 {
   "name": "minimal-node-build-env",
-  "version": "8.11.2",
+  "version": "10.14.2",
   "description": "> Alpine-based Node build environment with npm, bash and git",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,7 @@
 
 > Alpine-based Node build environment with npm, bash and git
 
-> Based on `node:10.14.2-alpine`
+> Based on `node:10.15.3-alpine`
 
 ## Use
 
@@ -31,7 +31,7 @@ docker image build .
 
 Any time there's a new version execute `npm run push-tag`
 
-> Only use when updating Alpine contents, but specific version of the base package remains the same
+> Only use when updating Node contents, but specific version of the base package remains the same
 
 ```
 git push origin :refs/tags/<tagname>

@@ -1,8 +1,8 @@
 # minimal-node-build-env
 
-> Alpine-based Node build environment with npm, bash and git
+> Alpine-based Node LTS build environment with npm, bash and git
 
-> Based on `node:10.15.3-alpine`
+> Based on `node:lts-alpine`, a new version will be auto-published with a every new release of Node LTS
 
 ## Use
 
@@ -27,14 +27,6 @@ or
 docker image build .
 ```
 
-## To update git tag
+## To Publish
 
-Any time there's a new version execute `npm run push-tag`
-
-> Only use when updating Node contents, but specific version of the base package remains the same
-
-```
-git push origin :refs/tags/<tagname>
-git tag -fa <tagname>
-git push origin master --tags
-```
+Docker Hub will automatically build and published the built image.

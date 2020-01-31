@@ -12,6 +12,7 @@ RUN apk add --no-cache \
   grep \
   gcc \ 
   g++ \
+  make \
   python
 
 RUN npm i -g npm

@@ -9,6 +9,9 @@ RUN apk add --no-cache \
   zip \
   curl \
   coreutils \
-  grep
+  grep \
+  gcc \ 
+  g++ \
+  python
 
 RUN npm i -g npm
